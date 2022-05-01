@@ -17,13 +17,14 @@ with st.sidebar:
 
 if choose == "介绍":
 
-    st.image("wx.png")
+    
     st.header("探探鼠石头村已经稳定一年左右。\n\n\n\n")
     st.write(
         "项目从去年6月份开始。\n\n\n\n"
         "一个人可以走的很快，一群人可以走的更远。\n\n\n"
         "为了让大家一起进步，由此创建了一个微信讨论群，可以扫上方二维码微信\n\n\n"
         "验证信息：我来自探探鼠网站")
+    st.image("wx.png")
 elif choose == "石头村/探探鼠项目":
 
     selecte1 = option_menu(None, ["盈利情况", "软件截图"],
