@@ -21,12 +21,12 @@ if choose == "介绍":
     with col1:
         st.image("wx.png", caption="鼎盛科技官方微信")
     with col2:
-        st.image("wx.png", caption="微信公众号Streamlit二维码")
-        st.write("微信公众号Streamlit由作者创建已由半年多。\n\n\n\n"
-                 "主题就是为大家分享Python与Streamlit结合的各种案例，用于提高大家的办公效率。\n\n\n\n"
+        st.image("wx.png")
+        st.write("探探鼠石头村已经稳定一年左右。\n\n\n\n"
+                 "项目从去年6月份开始。\n\n\n\n"
                  "一个人可以走的很快，一群人可以走的更远。\n\n\n"
-                 "为了让大家一起进步，由此创建了一个微信讨论群，可以扫下方二维码添加作者微信\n\n\n"
-                 "验证信息：我来自公众号Streamlit")
+                 "为了让大家一起进步，由此创建了一个微信讨论群，可以扫上方二维码微信\n\n\n"
+                 "验证信息：我来自探探鼠网站")
 elif choose == "石头村/探探鼠项目":
 
     selecte1 = option_menu(None, ["石头村介绍", "盈利情况", "软件截图"],
